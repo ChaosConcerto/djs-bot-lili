@@ -21,7 +21,7 @@ client.once(Events.ClientReady, c => {
 
 client.on('messageCreate', async (message) => {
     if (message.content === '叮噹狸') {
-        const replay = await message.reply('你的叮噹狸已上線')
+        const replay = await message.reply('你的叮噹狸已上線!')
         replay.react('✅')
     }
 })
