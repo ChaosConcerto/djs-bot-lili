@@ -1,4 +1,7 @@
 {
+  "scripts":{
+    "dev":"node src/main.js"
+  },
   "name": "djs-bot-lili",
   "version": "1.0.0",
   "main": "index.js",
